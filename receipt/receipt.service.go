@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pluralsight/webservices/cors"
+	"github.com/gnsalok/inventory-store-go/cors"
 )
 
 const receiptPath = "receipts"

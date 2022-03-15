@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pluralsight/webservices/cors"
+	"github.com/gnsalok/inventory-store-go/cors"
 	"golang.org/x/net/websocket"
 )
 

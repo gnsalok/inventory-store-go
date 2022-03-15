@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/gnsalok/inventory-store-go/database"
+	"github.com/gnsalok/inventory-store-go/product"
+	"github.com/gnsalok/inventory-store-go/receipt"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/pluralsight/webservices/database"
-	"github.com/pluralsight/webservices/product"
-	"github.com/pluralsight/webservices/receipt"
 )
 
 const basePath = "/api"

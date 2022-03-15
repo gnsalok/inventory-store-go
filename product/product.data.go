@@ -7,8 +7,6 @@ import (
 	"log"
 	"strings"
 	"time"
-
-	"github.com/pluralsight/webservices/database"
 )
 
 func getProduct(productID int) (*Product, error) {
